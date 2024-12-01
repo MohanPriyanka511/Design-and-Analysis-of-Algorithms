@@ -62,7 +62,7 @@ int main()
 {
 	int k, n;
 	char arr1[] = { 'P', 'T', 'T', 'P', 'T' };
-	k = 2;
+	k = 2;//a policeman cannot catch a thief who is k units far away from policeman.
 	n = sizeof(arr1) / sizeof(arr1[0]);
 	cout << "Maximum thieves caught: "
 		<< policeThief(arr1, n, k) << endl;
